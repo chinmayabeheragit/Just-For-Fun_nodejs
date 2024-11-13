@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // Use the PORT from .env without a fallback
-const port = process.env.PORT;
+const port = process.env.PORT = 4000;
 
 if (!port) {
     throw new Error("PORT is not defined in the .env file");
